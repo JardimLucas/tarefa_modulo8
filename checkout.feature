@@ -9,7 +9,7 @@
             Dado que eu estou na página de checkout
 
             Cenário: Cadastro com dados válidos
-            Quando eu preencho todos os campos obrigatórios com dados válidos <Nome*> <Sobrenome*> <País*> <Endereço*> <Cidade*> <CEP*> <Telefone*> <E-mail*>:
+            Quando eu preencho todos os campos obrigatórios com dados válidos:
             Então uma mensagem de sucesso é exibida "Cadastro concluído com sucesso!" e redirecionado para a página de finalização de compra.
 
             Exemplos:
@@ -20,7 +20,7 @@
 
 
             Cenário: Cadastro com formato de e-mail inválido
-            Quando eu preencho o campo de e-mail com um formato inválido <Nome*> <Sobrenome*> <País*> <Endereço*> <Cidade*> <CEP*> <Telefone*> <E-mail*>:
+            Quando eu preencho o campo de e-mail com um formato inválido:
             Então uma mensagem de erro é exibida "E-mail inválido"
 
             Exemplos:
@@ -31,7 +31,7 @@
 
 
             Cenário: Cadastro com campos vazios
-            Quando eu tento cadastrar com campos vazios <Nome*> <Sobrenome*> <País*> <Endereço*> <Cidade*> <CEP*> <Telefone*> <E-mail*>:
+            Quando eu tento cadastrar com campos vazios:
             Então uma mensagem de alerta é exibida "Todos os campos obrigatórios devem ser preenchidos"
 
             Exemplos:
